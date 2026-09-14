@@ -1,10 +1,6 @@
 name: 'Latchkey Fast Cache'
 author: 'Latchkey'
-description: >
-  High-performance streaming cache for Latchkey managed runners.
-  Uses a single streaming HTTP request instead of the serial chunk pattern
-  used by actions/cache@v4, eliminating Node.js bootstrap, reserve/commit
-  API overhead, and serial 32MB PATCH round trips.
+description: 'High-performance streaming cache for Latchkey managed runners. Single HTTP request, no chunked round trips.'
 
 branding:
   icon: 'zap'
